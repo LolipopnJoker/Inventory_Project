@@ -2,14 +2,14 @@
 ## Authors
 * [@LolipopnJoker](https://github.com/LolipopnJoker)
 ## Table of Contents
-* [Business problem]() -
-* [Data source]() -
-* [Methods]() -
-* [Tech stack]() -
-* [Lessons learned and recommendation]() -
-* [Limitation and what can be improved]() -
-* [Repository structure]() -
-* [Run Locally]() -
+* [Business problem](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#business-problem) -
+* [Data source](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#data-source) -
+* [Methods](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#methods) -
+* [Tech stack](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#tech-stack) -
+* [Lessons learned and recommendation](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#lessons-learned-and-recommendation) -
+* [Limitation and what can be improved](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#limitation-and-what-can-be-improved) -
+* [Repository structure](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#repository-structure) -
+* [Run Locally](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#run-locally) -
 ## Business problem
 In order to determine which and how much stock to order, along with when to do it, companies often use inventory management systems. Such systems helps tracking measurements such as [ABC Analysis](https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml) or [Demand Forecasting](https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml), and therefor are essential for many business.
 In this project, I created a generic inventory database, generated random data and built dashboard to depict various KPIs and measurements. I had two motives that led me to create these project:
