@@ -2,14 +2,14 @@
 ## Authors
 * [@LolipopnJoker](https://github.com/LolipopnJoker)
 ## Table of Contents
-* [Business problem](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#business-problem) -
-* [Data source](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#data-source) -
-* [Methods](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#methods) -
-* [Tech stack](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#tech-stack) -
-* [Lessons learned and recommendation](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#lessons-learned-and-recommendation) -
-* [Limitation and what can be improved](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#limitation-and-what-can-be-improved) -
-* [Repository structure](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#repository-structure) -
-* [Run Locally](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#run-locally) -
+* [Business problem](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#business-problem)
+* [Data source](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#data-source)
+* [Methods](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#methods)
+* [Tech stack](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#tech-stack)
+* [Lessons learned and recommendation](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#lessons-learned-and-recommendation)
+* [Limitation and what can be improved](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#limitation-and-what-can-be-improved)
+* [Repository structure](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#repository-structure)
+* [Run Locally](https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#run-locally)
 ## Business problem
 In order to determine which and how much stock to order, along with when to do it, companies often use inventory management systems. Such systems helps tracking measurements such as [ABC Analysis](https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml) or [Demand Forecasting](https://www.netsuite.com/portal/resource/articles/inventory-management/inventory-management.shtml), and therefor are essential for many business.
 In this project, I created a generic inventory database, generated random data and built dashboard to depict various KPIs and measurements. I had two motives that led me to create these project:
@@ -25,4 +25,33 @@ In this project, I created a generic inventory database, generated random data a
 ## Lessons learned and recommendation
 ## Limitation and what can be improved
 ## Repository structure
+```bash
+│   README.md
+│
+├───MySql
+│       creating_database.sql
+│       creating_inventory_table.sql
+│       inventory_database_scheme_1.vsdx
+│       inventory_database_scheme_v_1.pdf
+│
+├───Python
+│   │   RDG.py
+│   │   RDG_examples.py
+│   │   RDG_lists.csv
+│   │   RDG_lists_csv_to_lists.py
+│   │   RDT.py
+│   │   RDT_examples.py
+│   │   connecting_dots.py
+│   │   recreating_DB.py
+│   │
+│   └───__pycache__
+│           RDG.cpython-36.pyc
+│           RDG.cpython-39.pyc
+│           RDG_lists_csv_to_lists.cpython-39.pyc
+│           RDT.cpython-36.pyc
+│           RDT.cpython-39.pyc
+│
+└───Tableau
+        inventory_dashboard.twb
+```
 ## Run Locally  
