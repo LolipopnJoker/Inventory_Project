@@ -27,7 +27,9 @@ In this project, I created a generic inventory database, generated random data a
 * [Tableau](https://www.tableau.com/) - Tableau was used in order to make a dashbored that depicts several KPI's based on the data from the "WAREHOUSE" database.
 ## Lessons learned and recommendation
 ## Limitation and what can be improved
+* Unfinished dashboard – Unfortunately, I haven't managed to finish the dashboard in this project. I am currently working on it and hope to finish it before the 15th of December 2022.
 * Data storage – currently, the entire project is running only on the local machine. While this isn't a huge limitation, considering how strong and fast modern home computers are, I still want to try and implement the data storage on a cloud computing service (such as google cloud or AWS). In the last couple of years, the popularity of such services increased drastically, and therefor I believe that it would make this project more realistic.
+* Data used – While the reasons to use made-up data are [listed above]( https://github.com/LolipopnJoker/Inventory_Project/blob/main/README.md#data-source), it was still challenging to work with. Because the data is random, any conclusion inferred from it is basically worth nothing.
 ## Repository structure
 ```bash
 │   README.md
