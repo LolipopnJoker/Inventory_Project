@@ -71,6 +71,7 @@ def random_timestamp_generator(opening_hour: int, opening_minute: int, opnening_
     
     random_hour = random.randint(opening_hour, closing_hour)
     
+    # The following if statement forces the random timestamp to be between the opening and closing hours.
     if random_hour == opening_hour:
         random_minute = random.randint(opening_minute, 59)
         random_second = random.randint(opnening_second, 59)
@@ -84,5 +85,3 @@ def random_timestamp_generator(opening_hour: int, opening_minute: int, opnening_
     random_timestamp = datetime.time(random_hour, random_minute, random_second)
 
     return random_timestamp
-
-print(random_timestamp_generator(9, 0, 0, 22, 30, 0))

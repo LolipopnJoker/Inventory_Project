@@ -36,8 +36,10 @@ def execute_scripts_from_file(filepath: str):
 
 """Running SQL scripts to create the database"""
 
-execute_scripts_from_file('C:/Users/yoavw/Documents/GitHub/Portfolio/Portfolio/Inventory Project/MySql/creating_database.sql') # Creating the WAREHOUSE database
+sql_path = 'C:/Users/yoavw/Documents/GitHub/Portfolio/Inventory_Project/MySql/'
+
+execute_scripts_from_file(sql_path + 'creating_database.sql') # Creating the WAREHOUSE database
 cnx.commit()
 
-execute_scripts_from_file('C:/Users/yoavw/Documents/GitHub/Portfolio/Portfolio/Inventory Project/MySql/creating_inventory_table.sql') # Creating tables
+execute_scripts_from_file(sql_path + 'creating_tables.sql') # Creating tables
 cnx.commit()
