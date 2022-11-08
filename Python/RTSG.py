@@ -45,7 +45,7 @@ def random_date_generator(start_year: int, start_month: int, start_day: int, end
     return random_date
 
 def random_timestamp_generator(opening_hour: int, opening_minute: int, opnening_second: int, closing_hour: int, closing_minute: int, closing_second: int):
-    """Generates random datestamp.
+    """Generates random timestamp.
 
     Parameters
     ----------
@@ -86,7 +86,42 @@ def random_timestamp_generator(opening_hour: int, opening_minute: int, opnening_
 
     return random_timestamp
 
-def random_datetime_generator(start_year_: int, start_month_: int, start_day_: int, end_year_: int, end_month_: int, end_day_: int, opening_hour_: int, opening_minute_: int, opnening_second_: int, closing_hour_: int, closing_minute_: int, closing_second_: int):
+def random_datetime_generator(start_year_: int, start_month_: int, start_day_: int, end_year_: int, end_month_: int, end_day_: int, opening_hour_: int, opening_minute_: int, opnening_second_: int, closing_hour_: int, closing_minute_: int, closing_second_: int) -> datetime.datetime:
+    """Generates random datetime object.
+
+    Parameters
+    ----------
+    start_year: int
+        Year to begin with.
+    start_month: int
+        Month to begin with.
+    start_day: int
+        Day to begin with.
+    end_year: int
+        Last year.
+    end_month: int
+        Last month.
+    end_day: int
+        Last day.
+    opening_hour: int
+        Hour to begin with.
+    opening_minute: int
+        Minute to begin with.
+    opnening_second: int
+        Second to begin with.
+    closing_hour: int
+        Last hour.
+    closing_minute: int
+        Last minute.
+    closing_second: int
+        Last second.
+
+    Returns
+    -------
+    datetime.datetime
+        Returns a random timestamp.
+    """
+    
     random_date = random_date_generator(start_year_, start_month_, start_day_, end_year_, end_month_, end_day_)
     random_timestamp = random_timestamp_generator(opening_hour_, opening_minute_, opnening_second_, closing_hour_, closing_minute_, closing_second_)
     
