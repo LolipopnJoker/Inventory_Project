@@ -8,3 +8,7 @@ print(rand_date)
 """ Example 2 - Generating a random timestamp """
 rand_timestamp = random_timestamp_generator(9, 0, 0, 21, 30, 0)
 print(rand_timestamp)
+
+""" Example 3 - Generating a random datetime object """
+rand_datetime = random_datetime_generator(2009, 10, 14, 2022, 10, 14, 9, 0, 0, 21, 30, 0)
+print(rand_datetime)
