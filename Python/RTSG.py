@@ -85,3 +85,11 @@ def random_timestamp_generator(opening_hour: int, opening_minute: int, opnening_
     random_timestamp = datetime.time(random_hour, random_minute, random_second)
 
     return random_timestamp
+
+def random_datetime_generator(start_year_: int, start_month_: int, start_day_: int, end_year_: int, end_month_: int, end_day_: int, opening_hour_: int, opening_minute_: int, opnening_second_: int, closing_hour_: int, closing_minute_: int, closing_second_: int):
+    random_date = random_date_generator(start_year_, start_month_, start_day_, end_year_, end_month_, end_day_)
+    random_timestamp = random_timestamp_generator(opening_hour_, opening_minute_, opnening_second_, closing_hour_, closing_minute_, closing_second_)
+    
+    random_datetime = datetime.datetime.combine(random_date, random_timestamp)
+    
+    return random_datetime
